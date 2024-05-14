@@ -49,7 +49,9 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp &kp LEFT &kp RGHT>,
+                <&inc_dec_kp LEFT RIGHT_ARROW>,
+                <&kp LEFT>,
+                <&kp RGHT>,
                 <&inc_dec_kp PG_UP PG_DN>;
         };
 
